@@ -5,6 +5,7 @@
         <meta charset="UTF-8" />
         <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
         <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+        <script defer src="Assets\main.js"></script>
         <title>Tracy Angell's Portfolio</title>
     </head>
     <body id="home">
@@ -55,9 +56,13 @@
             </section>
         </main>
         <footer>
-            <p>
-                <a class="home" href="#home"><img src="Assets\images\home.png" /></a>
-            </p>
+            <button class="home" onclick="scrollToTop()"><img src="Assets\images\home.png" width="30rem" height="30rem"/>
+            </button>
+            <script>
+                function scrollToTop() {
+                    window.scrollTo(0,0);
+                }
+            </script>
             <h3>Made with ❤️️ by Tracy Angell</h3>
         </footer>
     </body>
