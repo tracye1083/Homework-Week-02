@@ -4,6 +4,25 @@
     margin: 0;
     scroll-behavior: smooth;
 }
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  text-align: end;
+  padding: 15px 18px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.navbar a:hover {
+  color: rgb(0, 255 , 255);
+}
+
 
 
 
