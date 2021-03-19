@@ -4,14 +4,14 @@
     margin: 0;
     scroll-behavior: smooth;
 }
-.navbar {
+.mynavbar {
   overflow: hidden;
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-.navbar a {
+.mynavbar a {
   float: right;
   display: block;
   text-align: end;
@@ -19,7 +19,7 @@
   text-decoration: none;
   font-size: 18px;
 }
-.navbar a:hover {
+.mynavbar a:hover {
   color: rgb(0, 255 , 255);
 }
 
