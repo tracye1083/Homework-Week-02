@@ -33,6 +33,18 @@ h2, h3, h5 footer {
   font-family: "Spectral SC", sans-serif;
 }
 
+.card {
+  flex-basis: 400px;
+  max-height: 300px;
+}
+.card:first-of-type {
+  flex-basis: 425px;
+  max-height: 320px;
+}
+.card-img {
+  object-fit: cover;
+}
+
 /* 
 @media (orientation: landscape) {
   body {
