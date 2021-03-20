@@ -7,27 +7,6 @@
 /* body {
   background-image: var(--bs-gradient);
 } */
-/* 
-.mynavbar {
-  font-family: "Spectral SC", sans-serif;
-  overflow: hidden;
-  position: sticky;
-  top: 0;
-  width: 100%;
-}
-
-.mynavbar a {
-  float: right;
-  display: block;
-  text-align: end;
-  padding: 15px 18px;
-  text-decoration: none;
-  font-size: 18px;
-  color: rgb(0, 0, 0);
-}
-.mynavbar a:hover {
-  color: rgb(0, 255 , 255);
-} */
 
 .home {
   overflow: hidden;
@@ -50,11 +29,11 @@ body {
   font-family: "Fauna One", sans-serif;
 }
 
-h2, h3, footer {
+h2, h3, h5 footer {
   font-family: "Spectral SC", sans-serif;
 }
 
-
+/* 
 @media (orientation: landscape) {
   body {
     flex-direction: row;
@@ -70,4 +49,4 @@ h2, h3, footer {
     nav {
       flex-direction: column;
     }
-  }
+  } */
