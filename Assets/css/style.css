@@ -4,9 +4,14 @@
     margin: 0;
     scroll-behavior: smooth;
 }
+/* body {
+  background-image: var(--bs-gradient);
+} */
+/* 
 .mynavbar {
+  font-family: "Spectral SC", sans-serif;
   overflow: hidden;
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
 }
@@ -18,10 +23,11 @@
   padding: 15px 18px;
   text-decoration: none;
   font-size: 18px;
+  color: rgb(0, 0, 0);
 }
 .mynavbar a:hover {
   color: rgb(0, 255 , 255);
-}
+} */
 
 .home {
   overflow: hidden;
@@ -30,47 +36,22 @@
   bottom: 0;
 }
 
-/* .home a {
-  float: right;
-  display: block;
-  width: 32px;
-  height: 33px;
-  padding: 15px 18px
-} */
-
-/* .home {
-  position: fixed;
-  display: block;
-  width: 32px;
-  height: 33px;
-  right: -50px;
-  bottom: 60px;
-  overflow: hidden;
-    overflow-x: hidden;
-    overflow-y: hidden;
-  z-index: 9;
-  border: 1px solid #ddd;
-    border-top-color: rgb(221, 221, 221);
-    border-top-style: solid;
-    border-top-width: 1px;
-    border-right-color: rgb(221, 221, 221);
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-bottom-color: rgb(221, 221, 221);
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-left-color: rgb(221, 221, 221);
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-image-source: initial;
-    border-image-slice: initial;
-    border-image-width: initial;
-    border-image-outset: initial;
-    border-image-repeat: initial;
-  border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px;} */
+.navbar-brand {
+  font-family: "Sofia", sans-serif;
+  font-size: 30px;
+}
 
 
+@media (orientation: landscape) {
+  body {
+    flex-direction: row;
+  };
+}
+  @media (orientation: portrait) {
+    body {
+      flex-direction: column;
+    };
+  }
 @media screen and (max-width: 768px) {
     main,
     nav {
