@@ -8,6 +8,12 @@
   background-image: var(--bs-gradient);
 } */
 
+:root {
+  --blue-1: #0FB0E6;
+  --white: #fff;
+  --grey-1: #243347;
+}
+
 .home {
   overflow: hidden;
   position: fixed;
@@ -15,24 +21,30 @@
   bottom: 0;
 }
 
+/* NAVBARS */
 .nav-item {
   font-family: "Spectral SC", sans-serif;
+  font-size: 1.55rem;
 }
-
 .navbar-brand {
   font-family: "Sofia", sans-serif;
   font-style: italic;
-  font-size: 30px;
+  font-size: 3rem;
 }
 
+/* BODY  */
 body {
   font-family: "Fauna One", sans-serif;
 }
 
-h2, h3, h5 footer {
+/* HEADERS */
+h2, h4, h5, footer {
   font-family: "Spectral SC", sans-serif;
 }
-
+h2 {
+  font-size: 2.5rem;
+}
+/* CARDS */
 .card {
   flex-basis: 400px;
   max-height: 300px;
@@ -43,6 +55,60 @@ h2, h3, h5 footer {
 }
 .card-img {
   object-fit: cover;
+}
+
+..work-img {
+  border: var(--default-indent) solid var(--blue-1);
+  border-radius: var(--default-border-size);
+  position: relative;
+  transition: border-color var(--transition-duration) ease-in-out;
+}
+
+..work-img::after {
+  content: '';
+  background-color: var(--grey-1);
+  width: 100%;
+  height: 100%;
+  opacity: .2;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  transition: opacity var(--transition-duration) ease-in-out;
+}
+
+..work-img:hover {
+  border-color: var(--blue-1);
+}
+
+..work-img:hover::after {
+  opacity: 0;
+}
+
+..work-img .image {
+  width: 100%;
+}
+
+.work-img .card-title {
+  color: var(--white);
+  border-radius: 0 var(--default-border-size) var(--default-border-size) 0;
+  background-color: var(--blue-1);
+  font-size: 1.5rem;
+  line-height: 1.1;
+  font-family: "Spectral SC", sans-serif;
+  font-weight: 400;
+  padding: var(--default-indent);
+  position: absolute;
+  left: 0;
+  bottom: 12%;
+  z-index: 2;
+  transition: background-color var(--transition-duration) ease-in-out;
+}
+
+.work-img .tags {
+  display: block;
+  font-size: 1rem;
+  margin: var(--default-indent) 0 0 0;
 }
 
 /* 
