@@ -4,12 +4,13 @@
     margin: 0;
     scroll-behavior: smooth;
 }
-
+/* CUSTOM COLORS */
 :root {
   --blue-1: #0FB0E6;
   --white: #fff;
   }
 
+/* NAVBARS */
 .home {
   overflow: hidden;
   position: fixed;
@@ -17,11 +18,11 @@
   bottom: 0;
 }
 
-/* NAVBARS */
 .nav-item {
   font-family: "Spectral SC", sans-serif;
   font-size: 1.55rem;
 }
+
 .navbar-brand {
   font-family: "Sofia", sans-serif;
   font-style: italic;
@@ -37,18 +38,37 @@ body {
 h2, h4, h5, footer {
   font-family: "Spectral SC", sans-serif;
 }
+
 h2 {
   font-size: 2.5rem;
 }
+
+/* ABOUT ME */
+.contain-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-me {
+  flex-basis: 40%;
+}
+
+.text-me {
+  padding-left: 2px;
+}
+
 /* CARDS */
 .card-img {
   flex-basis: 400px;
   max-height: 300px;
 }
+
 .card-img:first-of-type {
   flex-basis: 425px;
   max-height: 320px;
 }
+
 .card-img {
   object-fit: cover;
 }
