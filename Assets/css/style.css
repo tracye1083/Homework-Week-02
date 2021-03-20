@@ -36,9 +36,22 @@
   bottom: 0;
 }
 
+.nav-item {
+  font-family: "Spectral SC", sans-serif;
+}
+
 .navbar-brand {
   font-family: "Sofia", sans-serif;
+  font-style: italic;
   font-size: 30px;
+}
+
+body {
+  font-family: "Fauna One", sans-serif;
+}
+
+h2, h3, footer {
+  font-family: "Spectral SC", sans-serif;
 }
 
 
