@@ -66,6 +66,10 @@ footer {
   flex-basis: 70%;
   padding-left: 12px;
   }
+  
+.img-me .img-fluid {
+  border-radius: 0 50% 0 50%;
+}
 
 .text-me {
   padding-left: 12px;
