@@ -5,7 +5,7 @@ Creation of the first of many versions of my portfolio which includes samples of
 [Tracy Angell's Portfolio Page](https://tracye1083.github.io/Homework-Week-02/)
 ************************************************
 **SCREENSHOT**
-![Preview of Page](Assets\images\Screenshot.png)
+![Preview of Page](Assets/images/Screenshot.png)
 ************************************************
 
 **CONTACT INFORMATION**
