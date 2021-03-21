@@ -34,12 +34,17 @@ body {
   font-family: "Fauna One", sans-serif;
 }
 
+p {
+  font-size: 1rem;
+}
+
 /* HEADERS */
 h1, h2, h4, h5, footer {
   font-family: "Spectral SC", sans-serif;
 }
 
 h1 {
+  font-weight: 300;
   font-size: 2.5rem;
   padding-top: 1em;
 }
@@ -54,20 +59,22 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 300px;
+  padding-bottom: 200px;
 }
 
 .img-me {
   flex-basis: 70%;
+  padding-left: 12px;
   }
 
 .text-me {
-  padding-left: 2px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 /* WORK */
 .work {
-  padding-bottom: 300px;
+  padding-bottom: 200px;
 }
 
 .card-img {
